@@ -60,7 +60,7 @@ void scanBTdevice() {//scan bluetooth device
     if (deviceName[i] == client_name) {//match name.
     //found device name "OBDII"
       foundOBD2 = true;
-      //00:1d:a5:00:12:92 -> {0x00,0x1d,0xa5,0x00,0x12,0x92};
+      //88:18:56:68:98:EB -> {0x88,0x18,0x56,0x68,0x98,0xEB};
       //copy match bt mac address to client_name to connect
       String str = deviceAddr[i];
       uint8_t StringCount = 0;
@@ -144,3 +144,4 @@ void connectLastOBDII() {
  
 
 }//connectLasbtOBDII
+
