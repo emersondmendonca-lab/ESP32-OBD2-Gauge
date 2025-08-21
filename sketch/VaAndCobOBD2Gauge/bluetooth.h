@@ -1,7 +1,7 @@
 /* Bluetooth function */
 //----------------------------------
 //convert bt address to text
-//{0x00,0x1d,0xa5,0x00,0x12,0x92} -> 00:1d:a5:00:12:92
+//{0x88,0x18,0x56,0x68,0x98,0xEB} -> 88:18:56:68:98:EB
 String ByteArraytoString(esp_bd_addr_t bt_address) {
   String txt = "";
   String nib = "";
@@ -142,4 +142,5 @@ void connectLastOBDII() {
     foundOBD2 = true;
   }
  
+
 }//connectLasbtOBDII
