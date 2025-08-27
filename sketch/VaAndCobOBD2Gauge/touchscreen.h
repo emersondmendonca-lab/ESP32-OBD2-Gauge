@@ -248,4 +248,5 @@ uint16_t t_x = 0, t_y = 0; // To store the touch coordinates
     delay(300);  
     }
   }
+
 }  
